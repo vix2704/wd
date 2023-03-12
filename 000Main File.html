@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--This is a simple code to allow users to select an anime genre of their choice and the 
+    respective links will open to a new webpage showing top 7 anime shows -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+     <!--css formatting of elements-->
+    <style>
+        h1{
+            color: rgb(132, 123, 104);
+        }
+        .background
+        {
+            background-image: url(khbg.png);
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100% 100%;
+            height: 100%;
+            width: 100%;
+        }
+        .centered {
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             color: rgb(212, 178, 133);
+        }
+        .left {
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            transform: translate(-50%, -50%);
+            color: rgb(222, 201, 177);
+        }
+        .bottom 
+        {
+            position: absolute;
+            top: 80%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            color: rgb(245, 193, 126);
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>ANIME WATCHLISTS--TOP 7</h1>                    <!-- header 1-->
+    <h2>Please select a category :</h2>                 <!--header 2-->
+    <div class="background"></div>
+   <div class="container">
+        <img src="khbg.png" alt="kh" style="width:100%;">
+         <!--LINK FOR ACTION GENRE-->
+          <div class="centered">   
+           <a href="001.html">___ACTION_GENRE</a>
+          </div>
+         <!--LINK FOR COMEDY GENRE-->
+           <div class="left">
+           <a href="003.html">___COMEDY_GENRE</a>
+    
+           </div>
+          <!--LINK FOR PSYCHOLOGICAL GENRE-->
+           <div class="bottom">
+           <a href="002.html">___PSYCHOLOGICAL_GENRE</a>
+          </div>
+  
+    </div>
+
+    
+</body>
+</html>
